@@ -1,0 +1,22 @@
+{
+    "name": "wp-plugin/secdash",
+    "description": "A plugin which provides the SECDASH service with all information it needs.",
+    "type": "wordpress-plugin",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ulrich Völkel",
+            "email": "ulrich.voelkel@baseplus.de"
+        },
+        {
+            "name": "Marvin Bölsterli",
+            "email": "marvin.boelsterli@baseplus.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Baseplus\\Secdash\\": "src" }
+    },
+    "require": {
+        "php": ">=7.0.0"
+    }
+}
